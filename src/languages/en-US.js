@@ -166,7 +166,6 @@ module.exports = class extends Language {
 				`• Users      :: ${users}`,
 				`• Guilds     :: ${guilds}`,
 				`• Channels   :: ${channels}`,
-				`• BloxTech      :: v${klasaVersion}`,
 				`• Discord.js :: v${discordVersion}`,
 				`• Node.js    :: ${processVersion}`,
 				`• Shard      :: ${(message.guild ? message.guild.shardID : 0) + 1} / ${this.client.options.totalShardCount}`
